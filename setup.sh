@@ -50,3 +50,9 @@ sudo apt-get install -y python-software-properties python g++ make
 sudo add-apt-repository -y ppa:chris-lea/node.js
 sudo apt-get update
 sudo apt-get install -y nodejs
+
+# Login Settings for Github
+git config --global user.name "ececconi"
+git config --global user.email "emiliocecconi@gmail.com"
+git config --global credential.helper cache
+git config --global credential.helper 'cache --timeout=3600'
